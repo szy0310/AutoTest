@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="stuname">
+    <test name="runAll">
+        <classes>
+            <class name="com.hp.dao.groups.GrouoCalss"></class>
+            <class name="com.hp.dao.groups.GrouoCalss1"></class>
+            <class name="com.hp.dao.groups.GrouoCalss2"></class>
+        </classes>
+    </test>
+    <test name="onrunAll">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.hp.dao.groups.GrouoCalss"></class>
+            <class name="com.hp.dao.groups.GrouoCalss1"></class>
+            <class name="com.hp.dao.groups.GrouoCalss2"></class>
+        </classes>
+    </test>
+
+
+</suite>

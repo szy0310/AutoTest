@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameter">
+    <test name="param">
+        <classes>
+            <parameter name="name" value="zhansan"/>
+            <parameter name="age" value="12"/>
+            <class name="com.hp.dao.paramter.ParamterTest"></class>
+        </classes>
+
+    </test>
+</suite>
