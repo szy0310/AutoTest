@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="测试">
+    <test name="我自己的测试接口">
+        <classes>
+            <class name="com.test.dome.TesstMethodsDemo">
+               <methods>
+                   <include name="test1"/>
+                   <include name="test2"/>
+                   <include name="test3"/>
+                   <include name="logindome"/>
+               </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+        <listener class-name="com.test.dome.utils.ExtentTestNGIReporterListener"/>
+
+
+
+
+    </listeners>
+
+</suite>
