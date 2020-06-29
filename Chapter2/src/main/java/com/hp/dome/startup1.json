@@ -1,0 +1,11 @@
+[
+  {
+    "decription": "这是我们第一个mock的例子",
+    "request": {
+      "url": "/dome"
+    },
+    "response": {
+"test": "第一个moco框架dome"
+}
+  }
+]
